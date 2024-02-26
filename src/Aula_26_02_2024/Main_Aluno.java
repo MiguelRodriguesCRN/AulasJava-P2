@@ -23,7 +23,12 @@ public class Main_Aluno {
 
         int media = (a.nota1 + a.nota2 + a.nota3) / 3;
 
-        System.out.println("Seu nome é: "+ a.nome + " Sua média é: " + media);
+        if (media >= 7) {
+            System.out.println("Seu nome é: "+ a.nome + " Sua média é: " + media + " E vc foi APROVADO!!");
+        } else {
+            System.out.println("Seu nome é: "+ a.nome + " Sua média é: " + media + " E vc foi REPROVADO!!");
+        }
+
 
     }
 }
