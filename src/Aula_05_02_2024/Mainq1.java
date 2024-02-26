@@ -1,3 +1,5 @@
+package Aula_05_02_2024;
+
 public class Mainq1 {
     public static void main(String[] args) {
 
