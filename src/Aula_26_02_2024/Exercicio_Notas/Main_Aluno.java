@@ -1,4 +1,4 @@
-package Aula_26_02_2024;
+package Aula_26_02_2024.Exercicio_Notas;
 
 import java.util.Scanner;
 
@@ -21,12 +21,12 @@ public class Main_Aluno {
         System.out.println("Digite sey nome");
         a.nota3=sc.nextInt();
 
-        int media = (a.nota1 + a.nota2 + a.nota3) / 3;
+        a.media();
 
-        if (media >= 7) {
-            System.out.println("Seu nome é: "+ a.nome + " Sua média é: " + media + " E vc foi APROVADO!!");
+        if (a.media >= 7) {
+            System.out.println("Seu nome é: "+ a.nome + " Sua média é: " + a.media + " E vc foi APROVADO!!");
         } else {
-            System.out.println("Seu nome é: "+ a.nome + " Sua média é: " + media + " E vc foi REPROVADO!!");
+            System.out.println("Seu nome é: "+ a.nome + " Sua média é: " + a.media + " E vc foi REPROVADO!!");
         }
 
 

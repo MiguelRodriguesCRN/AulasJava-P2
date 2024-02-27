@@ -1,4 +1,4 @@
-package Aula_26_02_2024;
+package Aula_26_02_2024.Exercicio_Pessoa;
 
 import java.util.Scanner;
 
