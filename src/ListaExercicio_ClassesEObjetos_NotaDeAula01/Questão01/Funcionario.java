@@ -8,7 +8,7 @@ public class Funcionario {
     int SalarioLiquido;
 
     public void Calculo() {
-        SalarioLiquido = Salario * (100/15);
+        SalarioLiquido = 15 * (Salario / 100);
     }
 
 
