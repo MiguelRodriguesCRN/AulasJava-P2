@@ -36,8 +36,8 @@ public class Triangulo {
             System.out.println("É um triangulo Isóceles");
         } else if ((lado1 != lado2 ) && (lado1 != lado3)) {
             System.out.println("É um triangulo Escaleno");
-        } else {
-            System.out.println("Não pode ser um triangulo!!!");
+        } else if ((lado1 == 0) && (lado2 == 0) && (lado3 == 0)) {
+            System.out.println("Não pode ser um triangulo");
         }
 
     }
