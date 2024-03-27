@@ -30,9 +30,9 @@ public class Triangulo {
 
     public void Validacao() {
 
-        if (lado1 == lado2 && lado3 == lado1) {
+        if (lado1 == lado2 && lado1 == lado3) {
             System.out.println("É um triangulo Equilátero");
-        } else if (lado1 == lado2 && lado1 != lado3) {
+        } else if ((lado1 == lado2)) {
             System.out.println("É um triangulo Isóceles");
         } else if ((lado1 != lado2 ) && (lado1 != lado3)) {
             System.out.println("É um triangulo Escaleno");

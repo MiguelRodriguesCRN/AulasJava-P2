@@ -12,7 +12,7 @@ public class MainTriangulo {
         System.out.println("Lado 02: ");
         t.setLado2(sc.nextInt());
         System.out.println("Lado 03: ");
-        t.setLado2(sc.nextInt());
+        t.setLado3(sc.nextInt());
 
         t.Validacao();
     }
