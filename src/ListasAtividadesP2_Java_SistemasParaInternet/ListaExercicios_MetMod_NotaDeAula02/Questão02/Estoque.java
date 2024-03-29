@@ -1,4 +1,4 @@
-package ListaExercicios_MetMod_NotaDeAula02.Questão02;
+package ListasAtividadesP2_Java_SistemasParaInternet.ListaExercicios_MetMod_NotaDeAula02.Questão02;
 
 public class Estoque {
 

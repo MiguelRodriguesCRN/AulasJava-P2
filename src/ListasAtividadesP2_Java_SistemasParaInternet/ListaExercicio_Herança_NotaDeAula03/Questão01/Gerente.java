@@ -1,4 +1,4 @@
-package Aula_11_03_2024.Questao01;
+package ListasAtividadesP2_Java_SistemasParaInternet.ListaExercicio_Herança_NotaDeAula03.Questão01;
 
 public class Gerente extends Funcionario {
 
@@ -12,12 +12,15 @@ public class Gerente extends Funcionario {
         this.departamento = departamento;
     }
 
-    public double CalcularBonus() {
+    public double calcularBonus() {
         return 0.1 * getSalario();
     }
+
     public void exibirGerente() {
         super.exibir();
-        System.out.println("Departamento: " + departamento);
-        System.out.println("Seu novo salario: "+ getSalario());
+        System.out.println("SEÇÃO GERENTE: ");
+        System.out.println("Departamento: "+departamento);
+        System.out.println("Novo Salario: "+salario);
     }
 }
+

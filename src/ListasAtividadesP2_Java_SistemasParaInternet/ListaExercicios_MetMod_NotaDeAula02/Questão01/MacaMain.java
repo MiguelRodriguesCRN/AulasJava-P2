@@ -1,4 +1,4 @@
-package ListaExercicios_MetMod_NotaDeAula02.Questão01;
+package ListasAtividadesP2_Java_SistemasParaInternet.ListaExercicios_MetMod_NotaDeAula02.Questão01;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ListaExercicio_ClassesEObjetos_NotaDeAula01.Questão02;
+package ListasAtividadesP2_Java_SistemasParaInternet.ListaExercicio_ClassesEObjetos_NotaDeAula01.Questão02;
 
 import java.util.Scanner;
 

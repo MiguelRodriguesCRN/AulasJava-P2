@@ -1,4 +1,4 @@
-package ListaExercicios_MetMod_NotaDeAula02.Questão03;
+package ListasAtividadesP2_Java_SistemasParaInternet.ListaExercicios_MetMod_NotaDeAula02.Questão03;
 import java.util.Scanner;
 
 public class MainTriangulo {

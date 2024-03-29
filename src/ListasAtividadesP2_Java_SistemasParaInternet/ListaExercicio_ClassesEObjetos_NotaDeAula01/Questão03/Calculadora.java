@@ -1,4 +1,4 @@
-package ListaExercicio_ClassesEObjetos_NotaDeAula01.Questão03;
+package ListasAtividadesP2_Java_SistemasParaInternet.ListaExercicio_ClassesEObjetos_NotaDeAula01.Questão03;
 
 public class Calculadora {
 

@@ -1,4 +1,4 @@
-package ListaExercicio_ClassesEObjetos_NotaDeAula01.Questão01;
+package ListasAtividadesP2_Java_SistemasParaInternet.ListaExercicio_ClassesEObjetos_NotaDeAula01.Questão01;
 
 public class Funcionario {
 
