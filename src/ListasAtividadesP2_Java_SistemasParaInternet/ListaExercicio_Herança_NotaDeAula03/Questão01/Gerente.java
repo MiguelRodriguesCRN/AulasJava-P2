@@ -18,6 +18,7 @@ public class Gerente extends Funcionario {
 
     public void exibirGerente() {
         super.exibir();
+        System.out.println("_________________");
         System.out.println("SEÇÃO GERENTE: ");
         System.out.println("Departamento: "+departamento);
         System.out.println("Novo Salario: "+salario);

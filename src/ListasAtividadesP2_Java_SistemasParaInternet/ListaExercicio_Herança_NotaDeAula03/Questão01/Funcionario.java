@@ -22,7 +22,6 @@ public class Funcionario {
 
     public void exibir() {
         System.out.println("Nome: "+nome);
-        System.out.println("___________");
         System.out.println("Salario: "+salario);
     }
 }

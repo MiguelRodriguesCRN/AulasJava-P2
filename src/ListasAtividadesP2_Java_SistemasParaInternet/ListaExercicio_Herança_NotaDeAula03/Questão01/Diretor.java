@@ -11,6 +11,9 @@ public class Diretor extends Funcionario {
     }
 
     public void exibirAcoes() {
+        super.exibir();
+        System.out.println("___________");
+        System.out.println("SEÇÃO DIRETOR:");
         System.out.println("Quantidade Ações: "+acoes);
     }
 }
