@@ -17,9 +17,6 @@ public class MainFuncionario {
 
         fun.Calculo();
 
-        System.out.println("Salario: " + fun.Salario );
-        System.out.println("Dedução INSS: 15%");
-        System.out.println("Salario Lquido: " + fun.SalarioLiquido);
 
 
     }
