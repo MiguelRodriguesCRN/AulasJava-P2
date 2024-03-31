@@ -15,4 +15,6 @@ public class Arara extends Animal{
         super(classe, locomocao);
         this.qtdOvos = qtdOvos;
     }
+
+
 }
