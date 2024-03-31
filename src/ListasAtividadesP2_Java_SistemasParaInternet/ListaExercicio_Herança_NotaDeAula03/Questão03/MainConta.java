@@ -38,7 +38,9 @@ public class MainConta {
                             break;
 
                         case 3:
-                            cc.ChequeEspecial();
+                            System.out.println("Digite o valor que deseja sacar com cheque especial: ");
+                            int valorSaque = sc.nextInt();
+                            cc.ChequeEspecial(valorSaque);
                             break;
 
                         case 4:
