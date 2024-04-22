@@ -15,4 +15,9 @@ public class Gato extends Animal implements Corrida{
     public void correr(){
 
     }
+
+    @Override
+    public void Comer() {
+        System.out.println("Gato Comendo...");
+    }
 }

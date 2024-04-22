@@ -1,8 +1,9 @@
 package Aula_15_04_2024;
 
-public class Passarinho extends Animal implements Corrida{
-    public Passarinho(String nome, int idade) {
-        super(nome, idade);
+public class Passarinho extends Animal {
+
+    public Passarinho(String nome, int idade, TipoAnimal tipo) {
+        super(nome, idade, tipo);
     }
 
     @Override
@@ -11,7 +12,7 @@ public class Passarinho extends Animal implements Corrida{
     }
 
     @Override
-    public void correr(){
-
+    public void Comer() {
+        System.out.println("Passarinho Comendo");
     }
 }

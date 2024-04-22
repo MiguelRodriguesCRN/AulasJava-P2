@@ -31,6 +31,7 @@ public abstract class Animal {
 
     public abstract void emitirSom();
 
+    public abstract void Comer() ;
     public TipoAnimal getTipo() {
         return tipo;
     }
